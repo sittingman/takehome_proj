@@ -1,6 +1,6 @@
 # Take-Home Challenges
 
-The repository holds a small project from different take-home assignments from companies.
+The repository holds small projects from different take-home assignments from companies.
 
 ### [Ultimate](https://github.com/sittingman/takehome_proj/blob/master/ultimate_challenge/README.md)
 
