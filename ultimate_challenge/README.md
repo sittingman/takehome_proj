@@ -20,8 +20,8 @@ Ultimate Technologies Inc. is an American worldwide online transportation networ
 
 #### [Part 2 - Experiment and metrics design](https://github.com/sittingman/takehome_proj/blob/master/ultimate_challenge/part_2.ipynb)
 
-- Key metrics: mean number of cross cities routes (denoted as **tp**) that drivers make during weekdays before and after (pre-post approach)
-- Statistical Test: 1 tail test on difference in **tp** after and before, denoted as **tp_delta** to be > 0 
+- Key metrics: number of cross cities trips, total number of trips, driving time, % of trips in both city between day and night, weekday vs. weekend. 
+- Statistical Test: 1 tail test on difference in above key metrics before and after, denoted as **delta**, to be > 0 
 - Caveats: reimbursement of toll fees may not be effective if one of the following factors occur:
     1. Lack of demand for trips across cities could be driven by competitive options (e.g., trains, buses, ferries)
     2. Drivers have no motivation to serve across cities trip based on factors beyond the toll fees (e.g., traffic congestion, government regulations)
@@ -39,12 +39,12 @@ Per exploratory analysis and statistical tests, the following are selected as fe
 
 **Results**
 
-|Model | Accuracy |
-| --- | --- |
-| Baseline | 63.38% |
-| Random Forest | 75.23% |
-| Catboost | 76.78% |
-| Lightgbm | 76.75%|
+|Model | Accuracy | AUC |
+| --- | --- | --- |
+| Baseline | 63.38% | NA |
+| Random Forest | 75.38% | 0.7982 |
+| Catboost | 76.90% | **0.8204** |
+| Lightgbm | 76.79%| 0.8194 |
 
 **Recommendation**
 
