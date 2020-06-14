@@ -39,12 +39,12 @@ Per exploratory analysis and statistical tests, the following are selected as fe
 
 **Results**
 
-|Model | Accuracy | AUC |
-| --- | --- | --- |
-| Baseline | 63.38% | NA |
-| Random Forest | 75.38% | 0.7982 |
-| Catboost | 76.90% | **0.8204** |
-| Lightgbm | 76.79%| 0.8194 |
+|Model | AUC |
+| --- | --- |
+| Logistics | 0.768 |
+| Random Forest  | 0.806 |
+| Catboost | 0.823 |
+| Lightgbm | 0.824 |
 
 **Recommendation**
 
